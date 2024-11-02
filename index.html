@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reaction Time Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div id="game-container">
+        <div id="start-screen">
+            <button id="start-btn" class="btn">Start</button>
+        </div>
+        <div id="game-screen" class="hide">
+            <div id="target" class="hide"></div>
+        </div>
+        <div id="result-screen" class="hide">
+            <p>Your reaction time: <span id="reaction-time"></span> ms</p>
+            <button id="restart-btn" class="btn">Restart</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="particles-config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
